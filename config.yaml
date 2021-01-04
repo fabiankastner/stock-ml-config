@@ -1,5 +1,5 @@
 keys:
-    alpha_vantage_api: cfd757b8d9mshb4dfa9ad5f14f39p16fb38jsn3b90a5843ec1
+    alpha_vantage_api: YourAPIKey
 
 stock_list:
     verbose: Nasdaq Listed 27.12.2020
