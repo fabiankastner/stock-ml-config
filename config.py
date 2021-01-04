@@ -9,7 +9,7 @@ def home():
 
 @app.route("/config", methods=['GET'])
 def get_config():
-    with open("config.yaml") as cfg:
+    with open("config.yml") as cfg:
         config = yaml.load(cfg, Loader=yaml.FullLoader)
     return config
 

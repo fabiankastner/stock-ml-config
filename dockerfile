@@ -8,6 +8,7 @@ COPY ./requirements.txt /app/
 RUN pip install --upgrade pip
 RUN pip install -r requirements.txt
 
-COPY ./stock-ml-config-master /app/
+COPY ./config.py /app/
+COPY ./config.yml /app/
 
-CMD python config-master.py
+CMD python config.py
