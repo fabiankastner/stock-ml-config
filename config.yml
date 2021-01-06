@@ -3,4 +3,5 @@ keys:
 
 stock_list:
     verbose: Nasdaq Listed 27.12.2020
+    date_updated: 22.12.2020
     file_name: nasdaqlisted.txt
